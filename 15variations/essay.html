@@ -8,6 +8,7 @@
   body {
     font-family: georgia;
     margin-top: 100px;
+    width: 1250px;
   }
 .paragraph1{
 margin-left: 50px;
@@ -41,13 +42,13 @@ display:inline-block;
 
 p{
   margin-left: 100px;
-  border-left: 3px solid darksalmon;
+  border-left: 3px solid palevioletred;
   padding: 30px;
 }
 
 ul{
   margin-left: 100px;
-  border-left: 3px solid darksalmon;
+  border-left: 3px solid palevioletred;
   padding: 30px;
 }
 
@@ -57,16 +58,18 @@ li{
 
 
 h2{
-  border-left: 10px solid  darksalmon;
-  border-top: 10px solid darksalmon;
+
+  border-left: 10px solid  palevioletred;
+  border-top: 10px solid palevioletred;
   padding-left: 40px;
   padding-bottom: 40px;
   padding-top: 40px;
 }
 
 h1{
-    border-left: 20px solid darksalmon;
-    border-right: 650px solid darksalmon;
+    margin-left: 60px;
+    border-left: 20px solid palevioletred;
+    border-right: 650px solid palevioletred;
     padding: 50px;
     text-align: left;
     height: 90px;
@@ -96,7 +99,7 @@ h1{
     border-bottom: 1px solid black;
     padding-top: 15px;
     padding-bottom: 15px;
-    color: darksalmon;
+    color: palevioletred;
   }
 
   h6{
@@ -105,17 +108,60 @@ h1{
     text-align: right;
 
   }
+  a{
+  	font-family: arial;
+  	font-size: 20pt;
+  	font-weight: bold;
+  }
 
+  a:link{
+  	color: pink;
+  	text-decoration: none;
+  }
 
+  a:visited{
+  	color: pink;
+  	text-decoration: none;
+  }
 
-</style>
+  a:hover{
+  	color: palevioletred;
+  	text-decoration: none;
+  }
 
+  .left {
+  	display: inline-block;
+  	width: 400px;
+  	text-align: center;
 
-  </head>
+  }
 
-<h6> <a href="index.html">RETURN HOME</a> </h6>
+  .right{
+  	display: inline-block;
+  	width: 400px;
+  	text-align: center;
+
+  }
+  .middle{
+  	display: inline-block;
+  	width: 400px;
+  	text-align: center;
+
+  }
+
+  </style>
 
   <body>
+
+  	<div class="navigation">
+  		 <div class="left">	<a href="index.html"> Previous </a></div>
+  		 <div class="middle">	<a href="index.html"> Home </a></div>
+  		 <div class="right"> <a href="level1b.html"> Next </a></div>
+  	</div>
+   <br>
+   <br>
+   <br>
+   <br>
 
 <h1>  If It Doesn't Exist on the Internet, It Doesn't Exist </h1>
 

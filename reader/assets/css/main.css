@@ -1,0 +1,165 @@
+body{
+  background-color: gold;
+}
+
+h1{
+  color: fuchsia;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 50pt;
+}
+
+h4{
+  font-family: arial;
+  font-weight: bold;
+  font-size: 15pt;
+}
+
+.special{
+  color: white;
+
+}
+
+p{
+  font-family: arial;
+  font-weight: bold;
+  border-bottom: solid 2px black;
+  padding-bottom: 10px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color: fuchsia;
+
+}
+
+.content{
+  width: 650px;
+  margin-left: 50px;
+  margin-top: 50px;
+  padding-bottom: 20px;
+  display: inline-block;
+}
+
+
+.title{
+  font-family: arial;
+
+}
+
+.number{
+  color: white;
+  font-weight: normal;
+
+}
+
+.number:hover {
+  color: fuchsia;
+
+}
+
+.number2{
+  color: white;
+  font-weight: normal;
+
+
+}
+
+.number2:hover {
+  color: fuchsia;
+}
+
+.number3{
+  color: white;
+  font-weight: normal;
+
+
+}
+
+.number3:hover {
+  color: fuchsia;
+
+}
+
+.number4{
+  color: white;
+  font-weight: normal;
+
+
+}
+
+.number4:hover {
+  color: fuchsia;
+
+
+}
+.f1{
+  background-color: fuchsia;
+  padding: 5px;
+  position: fixed;
+  bottom: 10px;
+  left: 18px;
+  display: none;
+  font-family: sans-serif;
+  font-size: 8pt;
+
+}
+
+.f2{
+  background-color: fuchsia;
+  padding: 5px;
+  position: fixed;
+  bottom: 10px;
+  left: 18px;
+  display: none;
+  font-family: sans-serif;
+  font-size: 8pt;
+
+}
+
+.f3{
+  background-color: fuchsia;
+  padding: 5px;
+  position: fixed;
+  bottom: 10px;
+  left: 18px;
+  display: none;
+  font-family: sans-serif;
+  font-size: 8pt;
+
+}
+
+.f4{
+  background-color: fuchsia;
+  padding: 5px;
+  position: fixed;
+  bottom: 10px;
+  left: 18px;
+  display: none;
+  font-family: sans-serif;
+  font-size: 8pt;
+
+}
+
+
+
+
+.f1.showme{
+  display: block;
+}
+
+.f2.showme{
+  display: block;
+}
+
+.f3.showme{
+  display: block;
+}
+
+.f4.showme{
+  display: block;
+}

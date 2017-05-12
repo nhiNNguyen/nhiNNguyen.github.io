@@ -1,0 +1,148 @@
+*{
+  box-sizing: border-box;
+}
+
+img{
+  width: 100%;
+  box-shadow: 0 4px 60px 0 rgba(0, 0, 0, 0.2), 0 6px 50px 0 rgba(0, 0, 0, 0.20);
+  margin-bottom: 30px;
+  border: 0px solid lightgrey;
+  border-radius: 0px;
+
+
+}
+
+.images{
+  background-color: gold;
+  margin-top: 20px;
+
+
+
+
+}
+
+.nav{
+  width: 1050px;
+  text-align: right;
+
+}
+
+a{
+  font-family: arial;
+  font-weight: bold;
+  font-size: 8pt;
+  text-decoration: none;
+  color: black;
+  padding-left: 5px;
+}
+
+a:hover{
+  text-decoration: none;
+  color: fuchsia;
+}
+
+body{
+  background-color: gold;
+  max-width: 1280px;
+  height: 1500px;
+  margin-left: 80px;
+  margin-top: 80px;
+}
+
+.bg{
+  background-color: gold;
+  width: 1050px;
+  margin: auto;
+  padding: 10px 0 40px 0;
+}
+
+
+
+h1{
+  width: 1050px;
+  text-transform: uppercase;
+  color: fuchsia;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 45pt;
+  border-top: 10px solid fuchsia;
+  border-bottom: 10px solid fuchsia;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  margin-left: 0px;
+}
+
+h4{
+  text-align: left;
+  padding: 0px;
+  margin: 5px 0 0 0;
+}
+
+.author{
+  font-size: 20pt;
+  text-transform: lowercase;
+
+}
+
+.content{
+  font-size: 13pt;
+  font-family: arial;
+  padding: 0px 15px 15px 15px;
+  text-align: justify;
+  background-color: none;
+  margin: 0 10px 0 5px;
+
+}
+
+
+.content_1of4{
+  width: 650px;
+  border-bottom: 1px solid black;
+  font-size: 10pt;
+  font-family: georgia;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0 0 10px 0;
+  margin: 0px 0px 20px 20px;
+  text-align: left;
+  background-color: none;
+}
+
+
+blockquote{
+  font-family: georgia;
+  font-size: 10pt;
+  text-align: justify;
+  margin: 20px 0px 0px 0px;
+  border-top: 1px solid black;
+  padding-top: 10px;
+
+}
+
+
+.row{
+  width: 1050px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 0px 0px 0px;
+  margin: auto;
+
+}
+
+.row2{
+  width: 1050px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 0px 0px 0px;
+  margin: auto;
+  align-items: flex-end;
+
+}
+
+.col{
+  flex:0 0 33.33%;
+}
+
+.col_4of4{
+  flex: 0 0 66.66%;
+}

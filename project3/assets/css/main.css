@@ -108,6 +108,19 @@ h4{
   background-color: none;
 }
 
+.content_2of4{
+  width: 475px;
+  border-bottom: 1px solid black;
+  font-size: 10pt;
+  font-family: georgia;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0 0 10px 0;
+  margin: 0px 0px 20px 20px;
+  text-align: left;
+  background-color: none;
+}
+
 
 blockquote{
   font-family: georgia;
@@ -135,14 +148,32 @@ blockquote{
   flex-wrap: wrap;
   padding: 0px 0px 0px 0px;
   margin: auto;
+  align-items: flex-start;
+
+}
+
+.row3{
+  width: 1050px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 0px 0px 0px;
+  margin: auto;
   align-items: flex-end;
 
 }
 
 .col{
-  flex:0 0 33.33%;
+  flex: 0 0 33.33%;
+}
+
+.col_1of4{
+  flex: 0 0 100%;
+}
+
+.col_2of4{
+  flex:0 0 66.66%;
 }
 
 .col_4of4{
-  flex: 0 0 66.66%;
+  flex: 0 0 50%;
 }

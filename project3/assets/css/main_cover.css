@@ -47,6 +47,7 @@ a:hover{
 
 .content2 a:hover{
   color:gold;
+  background-color: fuchsia;
 }
 
 body{

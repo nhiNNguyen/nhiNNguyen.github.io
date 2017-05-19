@@ -68,18 +68,18 @@ body{
 h1{
   background-color: fuchsia;
   width: 1050px;
-  text-transform: uppercase;
+  text-transform: lowercase;
   color: black;
   font-family: arial;
   font-weight: bold;
-  font-size: 15pt;
+  font-size: 20pt;
   border-top: 10px solid gold;
   border-bottom: 10px solid gold;
   padding-bottom: 40px;
   padding-top: 40px;
-  padding-left: 20px;
+  padding-left: 0px;
   margin: auto;
-  text-align: left;
+  text-align: center;
 }
 
 h4{

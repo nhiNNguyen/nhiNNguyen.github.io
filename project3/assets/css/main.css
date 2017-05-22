@@ -6,20 +6,26 @@
   box-sizing: border-box;
 }
 
-img{
+img {
   width: 100%;
   box-shadow: 0 4px 60px 0 rgba(0, 0, 0, 0.2), 0 6px 50px 0 rgba(0, 0, 0, 0.20);
-  margin-bottom: 30px;
+  margin: auto;
   border: 0px solid lightgrey;
   border-radius: 0px;
-
+  padding-bottom: 20px;
+  padding-top: 10px;
 
 }
 
-.images{
-  background-color: gold;
-  margin-top: 20px;
+img.big {
+  width: 100%;
+  margin: auto;
 
+}
+
+.image2{
+  width: 1050px;
+  margin: auto;
 }
 
 .nav{
@@ -33,17 +39,17 @@ a{
   font-weight: bold;
   font-size: 8pt;
   text-decoration: none;
-  color: black;
+  color: fuchsia;
   padding-left: 5px;
 }
 
 a:hover{
   text-decoration: none;
-  color: fuchsia;
+  color: gold;
 }
 
 body{
-  background-color: gold;
+  background-color: black;
   max-width: 1280px;
   height: 1500px;
   margin-left: 80px;
@@ -51,7 +57,7 @@ body{
 }
 
 .bg{
-  background-color: gold;
+  background-color: none;
   width: 1050px;
   margin: auto;
   padding: 10px 0 40px 0;
@@ -77,6 +83,7 @@ h4{
   text-align: left;
   padding: 0px;
   margin: 5px 0 0 0;
+  text-decoration: underline;
 }
 
 .author{
@@ -91,6 +98,7 @@ h4{
   padding: 0px 15px 15px 15px;
   text-align: justify;
   background-color: none;
+  color: gold;
   margin: 0 10px 0 10px;
 
 }
@@ -98,7 +106,7 @@ h4{
 
 .content_1of4{
   width: 650px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid gold;
   font-size: 10pt;
   font-family: georgia;
   font-weight: bold;
@@ -107,11 +115,12 @@ h4{
   margin: 0px 0px 20px 0px;
   text-align: left;
   background-color: none;
+  color: gold;
 }
 
 .content_2of4{
   width: 650px;
-  border-bottom: 1px solid black;
+  border-bottom: 0px solid gold;
   font-size: 10pt;
   font-family: georgia;
   font-weight: bold;
@@ -120,6 +129,7 @@ h4{
   margin: 0px 0px 20px 0px;
   text-align: left;
   background-color: none;
+  color: gold;
 }
 
 
@@ -128,7 +138,7 @@ blockquote{
   font-size: 10pt;
   text-align: justify;
   margin: 20px 0px 0px 0px;
-  border-top: 1px solid black;
+  border-top: 1px solid gold;
   padding-top: 10px;
 
 }
@@ -154,12 +164,13 @@ blockquote{
 }
 
 .row3{
+  border-top: 1px solid gold;
   width: 1050px;
   display: flex;
   flex-wrap: wrap;
-  padding: 0px 0px 0px 0px;
+  padding: 20px 0px 0px 0px;
   margin: auto;
-  align-items: flex-end;
+  align-items: flex-start;
 
 }
 
